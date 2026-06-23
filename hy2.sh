@@ -54,6 +54,6 @@ EOF
 #PINSHA256
 PINSHA="B4F7BC5565FEA3521DBF040E143B065C6F9BBD85D62D8F90E7494D2EADDA899C"
 #LINK
-LINK="hysteria2://${UUID}@${IP}:${PORT}?sni=www.bing.com&insecure=1&allowInsecure=0&pinSHA256={PINSHA}#HY"
+LINK="hysteria2://${UUID}@${IP}:${PORT}?sni=www.bing.com&insecure=1&allowInsecure=0&pinSHA256=${PINSHA}#HY"
 #输出
-echo $LINK|tee $appdir/app.log
+echo $LINK|base64 |tee $appdir/app.log
