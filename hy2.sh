@@ -1,7 +1,7 @@
 appdir=$HOME/.appenv
 appfile="${appdir}/spider"
 appconf="${appdir}/config"
-appurl='https://github.com/apernet/hysteria/releases/download/app%2Fv2.8.0/hysteria-linux-amd64'
+appurl='https://github.com/apernet/hysteria/releases/download/app/v2.8.0/hysteria-linux-amd64'
 
 if [[ ! -e $appfile ]];then 
 mkdir $appdir
