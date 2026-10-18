@@ -2,7 +2,7 @@
 
 > config.yaml
 ```yaml
-listen: :65111
+listen: :8888
 
 tls:
   cert: "server.crt"
@@ -53,7 +53,7 @@ hysteria server -c config
 > client_config
 >
 ```
-server: "91.185.190.159:65111"
+server: "91.185.190.159:8888"
 auth: "181156a7-2f9d-529a-ab79-0fd62e5681b1"
 tls:
  sni: www.bing.com
