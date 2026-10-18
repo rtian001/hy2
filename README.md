@@ -54,7 +54,7 @@ hysteria server -c config
 >
 ```
 server: "91.185.190.159:65111"
-auth: "181156a7-2f9d-529a-ab79-0fd62e5681bc"
+auth: "181156a7-2f9d-529a-ab79-0fd62e5681b1"
 tls:
  sni: www.bing.com
  insecure: true
@@ -64,5 +64,5 @@ http:
 > 执行命令
 >
 ```
-hysteria server -c client_config
+hysteria client -c client_config
 ```
